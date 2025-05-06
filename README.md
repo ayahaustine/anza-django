@@ -24,3 +24,15 @@ pip-compile --output-file=requirements/<environment>.txt requirements/<environme
 ```
 
 e.g `pip-compile --output-file=requirements/base.txt requirements/base.in`
+
+### Run tests
+```sh
+#all
+pytest
+
+# Run specific test file
+pytest tests/test_models.py
+
+# Run tests with verbose output
+pytest -v
+```
