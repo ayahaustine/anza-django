@@ -1,3 +1,13 @@
+# anza-django
+anza-django is a powerful, ready-to-use collection of boilerplate code and configurations designed to save you days of setting up new Django projects.
+
+This project include;
+ - **Django**: web framework for building scalable, maintainable applications with built-in ORM, authentication, and security features.
+ - **Postgresql**: A robust, ACID-compliant relational database known for its scalability, JSONB support, and strong concurrency handling.
+ - **Redis**: A high-performance in-memory store used for caching, real-time data processing, and Celery task brokering.
+ - **Celery**: A distributed task queue that enables asynchronous job processing to improve application responsiveness.
+ - **Docker**: Ensures consistency across development, testing, and production environments by containerizing the entire stack.
+
 ## Development
 
 
