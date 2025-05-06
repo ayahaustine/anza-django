@@ -25,6 +25,22 @@ pip-compile --output-file=requirements/<environment>.txt requirements/<environme
 
 e.g `pip-compile --output-file=requirements/base.txt requirements/base.in`
 
+
+#### new app set up
+
+To create a new app;
+
+```sh
+python manage.py startapp <appname> backend/apps/<appname>
+```
+
+If an update to the pre-commit hooks is required, run this in the terminal
+
+```sh
+pre-commit autoupdate
+```
+
+
 ### Run tests
 ```sh
 #all
