@@ -1,0 +1,6 @@
+django
+django-redis
+celery
+psycopg[binary]
+python-decouple
+redis
