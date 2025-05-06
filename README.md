@@ -1,5 +1,16 @@
 ## Development
 
+
+### Rename the project
+If you desire, rename the project from `backend` to a `new_name`.
+Use the `rename_project.sh` script which will update all the necessary files.
+
+Run the script with the new_name as argument like
+
+```sh
+./rename_project.sh new_project_name
+```
+
 ### Set up development environment
 Install the development requirements/dependencies
 
