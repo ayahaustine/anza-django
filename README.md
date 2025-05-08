@@ -31,8 +31,8 @@ pip install -r requirements/dev.txt
 Create a `.env` file and copy the content of the `.env.example` and paste into the `.env` you've created.
 
 
-### Install packages
-You can install packages using `pip-compile` only. To ensure that pip compile works, install `pip-tool` as provided in [pip-tools docs](https://pypi.org/project/pip-tools/), in your environment.
+### Installing packages
+You can install packages using `pip-compile`. To ensure that pip compile works, install `pip-tool` as provided in [pip-tools docs](https://pypi.org/project/pip-tools/), in your environment.
 
 To add a new package, update the corresponding `requirements/<environment>.in` depending on the package's purpose.
 
