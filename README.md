@@ -55,7 +55,7 @@ To create a new app;
 python manage.py startapp <appname> backend/apps/<appname>
 ```
 
-If an update to the pre-commit hooks is required, run this in the terminal
+If an update to the pre-commit hooks is required, run this in the terminal.
 
 ```sh
 pre-commit autoupdate
